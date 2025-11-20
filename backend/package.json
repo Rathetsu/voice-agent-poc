@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@livekit/agents": "^1.0.19",
+    "@livekit/agents-plugin-cartesia": "^1.0.0",
+    "@livekit/agents-plugin-deepgram": "^1.0.0",
     "@livekit/agents-plugin-livekit": "^1.0.19",
     "@livekit/agents-plugin-silero": "^1.0.19",
     "@livekit/noise-cancellation-node": "^0.1.9",
