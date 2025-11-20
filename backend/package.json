@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "LiveKit Voice Agent Backend",
+  "main": "agent.js",
+  "scripts": {
+    "dev": "tsx agent.ts dev",
+    "build": "tsc",
+    "start": "node agent.js start",
+    "download-files": "tsc && node agent.js download-files"
+  },
+  "dependencies": {
+    "@livekit/agents": "^1.0.19",
+    "@livekit/agents-plugin-livekit": "^1.0.19",
+    "@livekit/agents-plugin-silero": "^1.0.19",
+    "@livekit/noise-cancellation-node": "^0.1.9",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
+

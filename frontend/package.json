@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "^5.1.0",
+    "@fontsource-variable/geist-mono": "^5.1.0",
+    "@livekit/components-react": "^2.9.16",
+    "@livekit/components-styles": "^1.2.0",
+    "livekit-client": "^2.15.15",
+    "livekit-server-sdk": "^2.14.2",
+    "next": "^15.1.8",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.1.8",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
+

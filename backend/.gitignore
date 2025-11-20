@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+*.js
+*.d.ts
+*.js.map
+*.d.ts.map
+
+# Keep package.json
+!package.json
+
+# Environment variables
+.env
+.env.local
+
+# Model files
+*.onnx
+*.bin
+silero_vad.onnx
+
+# Logs
+*.log
+
